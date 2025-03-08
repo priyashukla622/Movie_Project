@@ -198,6 +198,10 @@ body {
 .heading img{
     width: 25px;
     margin-right: 20px;
+    font-size:40px;
+}
+.heading h1{
+    font-size:40px;
 }
 .grid {
     display: grid;
