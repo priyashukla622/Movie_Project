@@ -30,7 +30,7 @@ function displayMovies(movies) {
 }
 // display all movie
 let allMovies = [];
-fetch("http://localhost:3000/movies")
+fetch("https://movie-project-ko1b.onrender.com/movies")
     .then(response => response.json())
     .then(data => {
         console.log("API Response:", data);
@@ -48,3 +48,6 @@ function searchMovie() {
     let filteredMovies = allMovies.filter(movie => movie.year == searchYear); 
     displayMovies(filteredMovies);
 }
+
+
+
